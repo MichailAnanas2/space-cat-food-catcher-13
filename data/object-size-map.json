@@ -1,0 +1,1275 @@
+{
+  "version": 1,
+  "project_slug": "space-cat-food-catcher-13",
+  "mode": "ai-grok-assets",
+  "units": "logical_pixels",
+  "coordinate_system": {
+    "design_width": 1280,
+    "design_height": 720,
+    "uniform_scale_required": true
+  },
+  "objects": {
+    "player": {
+      "entity_id": "player",
+      "role": "player",
+      "required_asset_id": "cat_astronaut",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "cat_astronaut",
+          "motion_id": "idle",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "dash": {
+          "asset_id": "cat_astronaut",
+          "motion_id": "dash",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "hit": {
+          "asset_id": "cat_astronaut",
+          "motion_id": "hit",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        }
+      }
+    },
+    "giraffe_bubble_helmet": {
+      "entity_id": "giraffe_bubble_helmet",
+      "role": "player",
+      "required_asset_id": "giraffe_bubble_helmet",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "giraffe_bubble_helmet",
+          "motion_id": "idle",
+          "display_width": 64,
+          "display_height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "giraffe_bubble_helmet",
+          "motion_id": "dash",
+          "display_width": 64,
+          "display_height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "giraffe_bubble_helmet",
+          "motion_id": "hit",
+          "display_width": 64,
+          "display_height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "shark_mini_spacesuit": {
+      "entity_id": "shark_mini_spacesuit",
+      "role": "player",
+      "required_asset_id": "shark_mini_spacesuit",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "shark_mini_spacesuit",
+          "motion_id": "idle",
+          "display_width": 58,
+          "display_height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        },
+        "dash": {
+          "asset_id": "shark_mini_spacesuit",
+          "motion_id": "dash",
+          "display_width": 58,
+          "display_height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        },
+        "hit": {
+          "asset_id": "shark_mini_spacesuit",
+          "motion_id": "hit",
+          "display_width": 58,
+          "display_height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        }
+      }
+    },
+    "crocodile_jetpack": {
+      "entity_id": "crocodile_jetpack",
+      "role": "player",
+      "required_asset_id": "crocodile_jetpack",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "crocodile_jetpack",
+          "motion_id": "idle",
+          "display_width": 62,
+          "display_height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "crocodile_jetpack",
+          "motion_id": "dash",
+          "display_width": 62,
+          "display_height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "crocodile_jetpack",
+          "motion_id": "hit",
+          "display_width": 62,
+          "display_height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "panda_antigrav_cushion": {
+      "entity_id": "panda_antigrav_cushion",
+      "role": "player",
+      "required_asset_id": "panda_antigrav_cushion",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "panda_antigrav_cushion",
+          "motion_id": "idle",
+          "display_width": 60,
+          "display_height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "dash": {
+          "asset_id": "panda_antigrav_cushion",
+          "motion_id": "dash",
+          "display_width": 60,
+          "display_height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "hit": {
+          "asset_id": "panda_antigrav_cushion",
+          "motion_id": "hit",
+          "display_width": 60,
+          "display_height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        }
+      }
+    },
+    "fox_comet_tail": {
+      "entity_id": "fox_comet_tail",
+      "role": "player",
+      "required_asset_id": "fox_comet_tail",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "fox_comet_tail",
+          "motion_id": "idle",
+          "display_width": 58,
+          "display_height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "fox_comet_tail",
+          "motion_id": "dash",
+          "display_width": 58,
+          "display_height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "fox_comet_tail",
+          "motion_id": "hit",
+          "display_width": 58,
+          "display_height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "penguin_ice_spacesuit": {
+      "entity_id": "penguin_ice_spacesuit",
+      "role": "player",
+      "required_asset_id": "penguin_ice_spacesuit",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "penguin_ice_spacesuit",
+          "motion_id": "idle",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "penguin_ice_spacesuit",
+          "motion_id": "dash",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "penguin_ice_spacesuit",
+          "motion_id": "hit",
+          "display_width": 56,
+          "display_height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "raccoon_engineer_backpack": {
+      "entity_id": "raccoon_engineer_backpack",
+      "role": "player",
+      "required_asset_id": "raccoon_engineer_backpack",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "raccoon_engineer_backpack",
+          "motion_id": "idle",
+          "display_width": 58,
+          "display_height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "raccoon_engineer_backpack",
+          "motion_id": "dash",
+          "display_width": 58,
+          "display_height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "raccoon_engineer_backpack",
+          "motion_id": "hit",
+          "display_width": 58,
+          "display_height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "rabbit_moon_ears": {
+      "entity_id": "rabbit_moon_ears",
+      "role": "player",
+      "required_asset_id": "rabbit_moon_ears",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "rabbit_moon_ears",
+          "motion_id": "idle",
+          "display_width": 60,
+          "display_height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        },
+        "dash": {
+          "asset_id": "rabbit_moon_ears",
+          "motion_id": "dash",
+          "display_width": 60,
+          "display_height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        },
+        "hit": {
+          "asset_id": "rabbit_moon_ears",
+          "motion_id": "hit",
+          "display_width": 60,
+          "display_height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        }
+      }
+    },
+    "owl_stargazer": {
+      "entity_id": "owl_stargazer",
+      "role": "player",
+      "required_asset_id": "owl_stargazer",
+      "default_state": "idle",
+      "states": {
+        "idle": {
+          "asset_id": "owl_stargazer",
+          "motion_id": "idle",
+          "display_width": 58,
+          "display_height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "dash": {
+          "asset_id": "owl_stargazer",
+          "motion_id": "dash",
+          "display_width": 58,
+          "display_height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "hit": {
+          "asset_id": "owl_stargazer",
+          "motion_id": "hit",
+          "display_width": 58,
+          "display_height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        }
+      }
+    },
+    "space_bomb_basic": {
+      "entity_id": "space_bomb_basic",
+      "role": "hazard",
+      "required_asset_id": "space_bomb_basic",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "space_bomb_basic",
+          "motion_id": "idle_spin",
+          "display_width": 44,
+          "display_height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "impact": {
+          "asset_id": "space_bomb_basic",
+          "motion_id": "impact",
+          "display_width": 44,
+          "display_height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        }
+      }
+    },
+    "satellite_mine": {
+      "entity_id": "satellite_mine",
+      "role": "hazard",
+      "required_asset_id": "satellite_mine",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "satellite_mine",
+          "motion_id": "idle_spin",
+          "display_width": 48,
+          "display_height": 48,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 40,
+            "height": 40,
+            "shape": "circle",
+            "radius": 20
+          }
+        },
+        "warning": {
+          "asset_id": "satellite_mine",
+          "motion_id": "warning",
+          "display_width": 48,
+          "display_height": 48,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 40,
+            "height": 40,
+            "shape": "circle",
+            "radius": 20
+          }
+        }
+      }
+    },
+    "asteroid_shard": {
+      "entity_id": "asteroid_shard",
+      "role": "obstacle",
+      "required_asset_id": "asteroid_shard",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "asteroid_shard",
+          "motion_id": "idle_spin",
+          "display_width": 34,
+          "display_height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 26,
+            "height": 26,
+            "shape": "circle",
+            "radius": 13
+          }
+        },
+        "impact": {
+          "asset_id": "asteroid_shard",
+          "motion_id": "impact",
+          "display_width": 34,
+          "display_height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 26,
+            "height": 26,
+            "shape": "circle",
+            "radius": 13
+          }
+        }
+      }
+    },
+    "laser_warning_beam": {
+      "entity_id": "laser_warning_beam",
+      "role": "hazard",
+      "required_asset_id": "laser_warning_beam",
+      "default_state": "telegraph",
+      "states": {
+        "telegraph": {
+          "asset_id": "laser_warning_beam",
+          "motion_id": "telegraph",
+          "display_width": 18,
+          "display_height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 1,
+            "y": 0,
+            "width": 16,
+            "height": 720,
+            "shape": "line_capsule",
+            "thickness": 16
+          }
+        },
+        "active": {
+          "asset_id": "laser_warning_beam",
+          "motion_id": "active",
+          "display_width": 18,
+          "display_height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 1,
+            "y": 0,
+            "width": 16,
+            "height": 720,
+            "shape": "line_capsule",
+            "thickness": 16
+          }
+        }
+      }
+    },
+    "boss_wave_bomb": {
+      "entity_id": "boss_wave_bomb",
+      "role": "hazard",
+      "required_asset_id": "boss_wave_bomb",
+      "default_state": "warning",
+      "states": {
+        "warning": {
+          "asset_id": "boss_wave_bomb",
+          "motion_id": "warning",
+          "display_width": 76,
+          "display_height": 76,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 64,
+            "height": 64,
+            "shape": "circle",
+            "radius": 32
+          }
+        },
+        "shockwave": {
+          "asset_id": "boss_wave_bomb",
+          "motion_id": "shockwave",
+          "display_width": 76,
+          "display_height": 76,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 64,
+            "height": 64,
+            "shape": "circle",
+            "radius": 32
+          }
+        }
+      }
+    },
+    "star_food": {
+      "entity_id": "star_food",
+      "role": "collectable",
+      "required_asset_id": "star_food",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "star_food",
+          "motion_id": "idle_spin",
+          "display_width": 34,
+          "display_height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 2,
+            "y": 2,
+            "width": 30,
+            "height": 30,
+            "shape": "circle",
+            "radius": 15
+          }
+        },
+        "collect": {
+          "asset_id": "star_food",
+          "motion_id": "collect",
+          "display_width": 34,
+          "display_height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 2,
+            "y": 2,
+            "width": 30,
+            "height": 30,
+            "shape": "circle",
+            "radius": 15
+          }
+        }
+      }
+    },
+    "shield_capsule": {
+      "entity_id": "shield_capsule",
+      "role": "powerup",
+      "required_asset_id": "shield_capsule",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "shield_capsule",
+          "motion_id": "idle_spin",
+          "display_width": 38,
+          "display_height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "collect": {
+          "asset_id": "shield_capsule",
+          "motion_id": "collect",
+          "display_width": 38,
+          "display_height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        }
+      }
+    },
+    "magnet_satellite": {
+      "entity_id": "magnet_satellite",
+      "role": "powerup",
+      "required_asset_id": "magnet_satellite",
+      "default_state": "idle_spin",
+      "states": {
+        "idle_spin": {
+          "asset_id": "magnet_satellite",
+          "motion_id": "idle_spin",
+          "display_width": 38,
+          "display_height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "collect": {
+          "asset_id": "magnet_satellite",
+          "motion_id": "collect",
+          "display_width": 38,
+          "display_height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        }
+      }
+    },
+    "heart_pickup": {
+      "entity_id": "heart_pickup",
+      "role": "collectable",
+      "required_asset_id": "heart_pickup",
+      "default_state": "idle_pulse",
+      "states": {
+        "idle_pulse": {
+          "asset_id": "heart_pickup",
+          "motion_id": "idle_pulse",
+          "display_width": 36,
+          "display_height": 36,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "collect": {
+          "asset_id": "heart_pickup",
+          "motion_id": "collect",
+          "display_width": 36,
+          "display_height": 36,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        }
+      }
+    },
+    "star_currency": {
+      "entity_id": "star_currency",
+      "role": "collectable",
+      "required_asset_id": "star_currency",
+      "default_state": "idle_twinkle",
+      "states": {
+        "idle_twinkle": {
+          "asset_id": "star_currency",
+          "motion_id": "idle_twinkle",
+          "display_width": 28,
+          "display_height": 28,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 28,
+            "height": 28,
+            "shape": "circle",
+            "radius": 14
+          }
+        },
+        "collect": {
+          "asset_id": "star_currency",
+          "motion_id": "collect",
+          "display_width": 28,
+          "display_height": 28,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 28,
+            "height": 28,
+            "shape": "circle",
+            "radius": 14
+          }
+        }
+      }
+    },
+    "nebula_playfield": {
+      "entity_id": "nebula_playfield",
+      "role": "background",
+      "required_asset_id": "nebula_playfield",
+      "default_state": "image",
+      "states": {
+        "image": {
+          "asset_id": "nebula_playfield",
+          "display_width": 1280,
+          "display_height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "shape": "rect"
+          }
+        }
+      }
+    },
+    "menu_planet_window": {
+      "entity_id": "menu_planet_window",
+      "role": "background",
+      "required_asset_id": "menu_planet_window",
+      "default_state": "image",
+      "states": {
+        "image": {
+          "asset_id": "menu_planet_window",
+          "display_width": 1280,
+          "display_height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "shape": "rect"
+          }
+        }
+      }
+    },
+    "character_select_hangar": {
+      "entity_id": "character_select_hangar",
+      "role": "background",
+      "required_asset_id": "character_select_hangar",
+      "default_state": "image",
+      "states": {
+        "image": {
+          "asset_id": "character_select_hangar",
+          "display_width": 1280,
+          "display_height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 720,
+            "shape": "rect"
+          }
+        }
+      }
+    }
+  },
+  "player_variants": [
+    {
+      "asset_id": "cat_astronaut",
+      "unlock_level": 1,
+      "object_key": "player"
+    },
+    {
+      "asset_id": "giraffe_bubble_helmet",
+      "unlock_level": 2,
+      "object_key": "giraffe_bubble_helmet"
+    },
+    {
+      "asset_id": "shark_mini_spacesuit",
+      "unlock_level": 3,
+      "object_key": "shark_mini_spacesuit"
+    },
+    {
+      "asset_id": "crocodile_jetpack",
+      "unlock_level": 4,
+      "object_key": "crocodile_jetpack"
+    },
+    {
+      "asset_id": "panda_antigrav_cushion",
+      "unlock_level": 5,
+      "object_key": "panda_antigrav_cushion"
+    },
+    {
+      "asset_id": "fox_comet_tail",
+      "unlock_level": 6,
+      "object_key": "fox_comet_tail"
+    },
+    {
+      "asset_id": "penguin_ice_spacesuit",
+      "unlock_level": 7,
+      "object_key": "penguin_ice_spacesuit"
+    },
+    {
+      "asset_id": "raccoon_engineer_backpack",
+      "unlock_level": 8,
+      "object_key": "raccoon_engineer_backpack"
+    },
+    {
+      "asset_id": "rabbit_moon_ears",
+      "unlock_level": 9,
+      "object_key": "rabbit_moon_ears"
+    },
+    {
+      "asset_id": "owl_stargazer",
+      "unlock_level": 10,
+      "object_key": "owl_stargazer"
+    }
+  ]
+}

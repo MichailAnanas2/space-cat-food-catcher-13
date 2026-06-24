@@ -1,0 +1,3821 @@
+{
+  "version": 1,
+  "project_slug": "space-cat-food-catcher-13",
+  "mode": "ai-grok-assets",
+  "provider": "grok",
+  "generation_quality": "mixed-real-reference-local-motion-fallback",
+  "assets": {
+    "player": [
+      {
+        "id": "cat_astronaut",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/cat_astronaut_reference.png",
+        "still_path": "assets/player/cat_astronaut.png",
+        "spritesheet_path": "assets/player/cat_astronaut_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/cat_astronaut_idle_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "cat_astronaut",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/cat_astronaut_reference.png",
+        "still_path": "assets/player/cat_astronaut.png",
+        "spritesheet_path": "assets/player/cat_astronaut_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/cat_astronaut_dash_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "cat_astronaut",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/cat_astronaut_reference.png",
+        "still_path": "assets/player/cat_astronaut.png",
+        "spritesheet_path": "assets/player/cat_astronaut_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/cat_astronaut_hit_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "giraffe_bubble_helmet",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/giraffe_bubble_helmet_reference.png",
+        "still_path": "assets/player/giraffe_bubble_helmet.png",
+        "spritesheet_path": "assets/player/giraffe_bubble_helmet_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/giraffe_bubble_helmet_idle_preview.gif",
+        "intended_display": {
+          "width": 64,
+          "height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "giraffe_bubble_helmet",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/giraffe_bubble_helmet_reference.png",
+        "still_path": "assets/player/giraffe_bubble_helmet.png",
+        "spritesheet_path": "assets/player/giraffe_bubble_helmet_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/giraffe_bubble_helmet_dash_preview.gif",
+        "intended_display": {
+          "width": 64,
+          "height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "giraffe_bubble_helmet",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/giraffe_bubble_helmet_reference.png",
+        "still_path": "assets/player/giraffe_bubble_helmet.png",
+        "spritesheet_path": "assets/player/giraffe_bubble_helmet_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/giraffe_bubble_helmet_hit_preview.gif",
+        "intended_display": {
+          "width": 64,
+          "height": 64,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 8,
+            "y": 6,
+            "width": 48,
+            "height": 54,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 27,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "shark_mini_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/shark_mini_spacesuit_reference.png",
+        "still_path": "assets/player/shark_mini_spacesuit.png",
+        "spritesheet_path": "assets/player/shark_mini_spacesuit_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/shark_mini_spacesuit_idle_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "shark_mini_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/shark_mini_spacesuit_reference.png",
+        "still_path": "assets/player/shark_mini_spacesuit.png",
+        "spritesheet_path": "assets/player/shark_mini_spacesuit_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/shark_mini_spacesuit_dash_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "shark_mini_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/shark_mini_spacesuit_reference.png",
+        "still_path": "assets/player/shark_mini_spacesuit.png",
+        "spritesheet_path": "assets/player/shark_mini_spacesuit_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/shark_mini_spacesuit_hit_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 4,
+            "width": 48,
+            "height": 36,
+            "shape": "ellipse",
+            "radius_x": 24,
+            "radius_y": 18,
+            "offset_x": 1,
+            "offset_y": 0
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "crocodile_jetpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/crocodile_jetpack_reference.png",
+        "still_path": "assets/player/crocodile_jetpack.png",
+        "spritesheet_path": "assets/player/crocodile_jetpack_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/crocodile_jetpack_idle_preview.gif",
+        "intended_display": {
+          "width": 62,
+          "height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "crocodile_jetpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/crocodile_jetpack_reference.png",
+        "still_path": "assets/player/crocodile_jetpack.png",
+        "spritesheet_path": "assets/player/crocodile_jetpack_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/crocodile_jetpack_dash_preview.gif",
+        "intended_display": {
+          "width": 62,
+          "height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "crocodile_jetpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/crocodile_jetpack_reference.png",
+        "still_path": "assets/player/crocodile_jetpack.png",
+        "spritesheet_path": "assets/player/crocodile_jetpack_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/crocodile_jetpack_hit_preview.gif",
+        "intended_display": {
+          "width": 62,
+          "height": 46,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 5,
+            "width": 50,
+            "height": 38,
+            "shape": "ellipse",
+            "radius_x": 25,
+            "radius_y": 19,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "panda_antigrav_cushion",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/panda_antigrav_cushion_reference.png",
+        "still_path": "assets/player/panda_antigrav_cushion.png",
+        "spritesheet_path": "assets/player/panda_antigrav_cushion_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/panda_antigrav_cushion_idle_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "panda_antigrav_cushion",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/panda_antigrav_cushion_reference.png",
+        "still_path": "assets/player/panda_antigrav_cushion.png",
+        "spritesheet_path": "assets/player/panda_antigrav_cushion_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/panda_antigrav_cushion_dash_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "panda_antigrav_cushion",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/panda_antigrav_cushion_reference.png",
+        "still_path": "assets/player/panda_antigrav_cushion.png",
+        "spritesheet_path": "assets/player/panda_antigrav_cushion_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/panda_antigrav_cushion_hit_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 60,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 9,
+            "width": 46,
+            "height": 46,
+            "shape": "circle",
+            "radius": 23,
+            "offset_x": 0,
+            "offset_y": 2
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "fox_comet_tail",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/fox_comet_tail_reference.png",
+        "still_path": "assets/player/fox_comet_tail.png",
+        "spritesheet_path": "assets/player/fox_comet_tail_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/fox_comet_tail_idle_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "fox_comet_tail",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/fox_comet_tail_reference.png",
+        "still_path": "assets/player/fox_comet_tail.png",
+        "spritesheet_path": "assets/player/fox_comet_tail_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/fox_comet_tail_dash_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "fox_comet_tail",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/fox_comet_tail_reference.png",
+        "still_path": "assets/player/fox_comet_tail.png",
+        "spritesheet_path": "assets/player/fox_comet_tail_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/fox_comet_tail_hit_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 50,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 44,
+            "height": 40,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 20,
+            "offset_x": -1,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "penguin_ice_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/penguin_ice_spacesuit_reference.png",
+        "still_path": "assets/player/penguin_ice_spacesuit.png",
+        "spritesheet_path": "assets/player/penguin_ice_spacesuit_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/penguin_ice_spacesuit_idle_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "penguin_ice_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/penguin_ice_spacesuit_reference.png",
+        "still_path": "assets/player/penguin_ice_spacesuit.png",
+        "spritesheet_path": "assets/player/penguin_ice_spacesuit_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/penguin_ice_spacesuit_dash_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "penguin_ice_spacesuit",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/penguin_ice_spacesuit_reference.png",
+        "still_path": "assets/player/penguin_ice_spacesuit.png",
+        "spritesheet_path": "assets/player/penguin_ice_spacesuit_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/penguin_ice_spacesuit_hit_preview.gif",
+        "intended_display": {
+          "width": 56,
+          "height": 56,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 42,
+            "height": 42,
+            "shape": "circle",
+            "radius": 21,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "raccoon_engineer_backpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/raccoon_engineer_backpack_reference.png",
+        "still_path": "assets/player/raccoon_engineer_backpack.png",
+        "spritesheet_path": "assets/player/raccoon_engineer_backpack_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/raccoon_engineer_backpack_idle_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "raccoon_engineer_backpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/raccoon_engineer_backpack_reference.png",
+        "still_path": "assets/player/raccoon_engineer_backpack.png",
+        "spritesheet_path": "assets/player/raccoon_engineer_backpack_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/raccoon_engineer_backpack_dash_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "raccoon_engineer_backpack",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/raccoon_engineer_backpack_reference.png",
+        "still_path": "assets/player/raccoon_engineer_backpack.png",
+        "spritesheet_path": "assets/player/raccoon_engineer_backpack_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/raccoon_engineer_backpack_hit_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 54,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 6,
+            "width": 44,
+            "height": 44,
+            "shape": "ellipse",
+            "radius_x": 22,
+            "radius_y": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "rabbit_moon_ears",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/rabbit_moon_ears_reference.png",
+        "still_path": "assets/player/rabbit_moon_ears.png",
+        "spritesheet_path": "assets/player/rabbit_moon_ears_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/rabbit_moon_ears_idle_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "rabbit_moon_ears",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/rabbit_moon_ears_reference.png",
+        "still_path": "assets/player/rabbit_moon_ears.png",
+        "spritesheet_path": "assets/player/rabbit_moon_ears_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/rabbit_moon_ears_dash_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "rabbit_moon_ears",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/rabbit_moon_ears_reference.png",
+        "still_path": "assets/player/rabbit_moon_ears.png",
+        "spritesheet_path": "assets/player/rabbit_moon_ears_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/rabbit_moon_ears_hit_preview.gif",
+        "intended_display": {
+          "width": 60,
+          "height": 62,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 9,
+            "y": 11,
+            "width": 42,
+            "height": 48,
+            "shape": "ellipse",
+            "radius_x": 21,
+            "radius_y": 24,
+            "offset_x": 0,
+            "offset_y": 4
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "owl_stargazer",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/owl_stargazer_reference.png",
+        "still_path": "assets/player/owl_stargazer.png",
+        "spritesheet_path": "assets/player/owl_stargazer_idle_spritesheet.png",
+        "preview_gif_path": "assets/player/owl_stargazer_idle_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "idle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "owl_stargazer",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/owl_stargazer_reference.png",
+        "still_path": "assets/player/owl_stargazer.png",
+        "spritesheet_path": "assets/player/owl_stargazer_dash_spritesheet.png",
+        "preview_gif_path": "assets/player/owl_stargazer_dash_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "dash",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "owl_stargazer",
+        "role": "player",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/player/owl_stargazer_reference.png",
+        "still_path": "assets/player/owl_stargazer.png",
+        "spritesheet_path": "assets/player/owl_stargazer_hit_spritesheet.png",
+        "preview_gif_path": "assets/player/owl_stargazer_hit_preview.gif",
+        "intended_display": {
+          "width": 58,
+          "height": 58,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 7,
+            "y": 8,
+            "width": 44,
+            "height": 44,
+            "shape": "circle",
+            "radius": 22,
+            "offset_x": 0,
+            "offset_y": 1
+          }
+        },
+        "animation": {
+          "id": "hit",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle": {
+            "id": "idle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "dash": {
+            "id": "dash",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "hit": {
+            "id": "hit",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      }
+    ],
+    "hazard": [
+      {
+        "id": "space_bomb_basic",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/space_bomb_basic_reference.png",
+        "still_path": "assets/hazard/space_bomb_basic.png",
+        "spritesheet_path": "assets/hazard/space_bomb_basic_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/hazard/space_bomb_basic_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 44,
+          "height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "impact": {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "space_bomb_basic",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/space_bomb_basic_reference.png",
+        "still_path": "assets/hazard/space_bomb_basic.png",
+        "spritesheet_path": "assets/hazard/space_bomb_basic_impact_spritesheet.png",
+        "preview_gif_path": "assets/hazard/space_bomb_basic_impact_preview.gif",
+        "intended_display": {
+          "width": 44,
+          "height": 44,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "animation": {
+          "id": "impact",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "impact": {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "satellite_mine",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/satellite_mine_reference.png",
+        "still_path": "assets/hazard/satellite_mine.png",
+        "spritesheet_path": "assets/hazard/satellite_mine_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/hazard/satellite_mine_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 48,
+          "height": 48,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 40,
+            "height": 40,
+            "shape": "circle",
+            "radius": 20
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "warning": {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "satellite_mine",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/satellite_mine_reference.png",
+        "still_path": "assets/hazard/satellite_mine.png",
+        "spritesheet_path": "assets/hazard/satellite_mine_warning_spritesheet.png",
+        "preview_gif_path": "assets/hazard/satellite_mine_warning_preview.gif",
+        "intended_display": {
+          "width": 48,
+          "height": 48,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 40,
+            "height": 40,
+            "shape": "circle",
+            "radius": 20
+          }
+        },
+        "animation": {
+          "id": "warning",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "warning": {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "laser_warning_beam",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/laser_warning_beam_reference.png",
+        "still_path": "assets/hazard/laser_warning_beam.png",
+        "spritesheet_path": "assets/hazard/laser_warning_beam_telegraph_spritesheet.png",
+        "preview_gif_path": "assets/hazard/laser_warning_beam_telegraph_preview.gif",
+        "intended_display": {
+          "width": 18,
+          "height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 1,
+            "y": 0,
+            "width": 16,
+            "height": 720,
+            "shape": "line_capsule",
+            "thickness": 16
+          }
+        },
+        "animation": {
+          "id": "telegraph",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "telegraph",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "active",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "telegraph": {
+            "id": "telegraph",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "active": {
+            "id": "active",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "laser_warning_beam",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/laser_warning_beam_reference.png",
+        "still_path": "assets/hazard/laser_warning_beam.png",
+        "spritesheet_path": "assets/hazard/laser_warning_beam_active_spritesheet.png",
+        "preview_gif_path": "assets/hazard/laser_warning_beam_active_preview.gif",
+        "intended_display": {
+          "width": 18,
+          "height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 1,
+            "y": 0,
+            "width": 16,
+            "height": 720,
+            "shape": "line_capsule",
+            "thickness": 16
+          }
+        },
+        "animation": {
+          "id": "active",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "telegraph",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "active",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "telegraph": {
+            "id": "telegraph",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "active": {
+            "id": "active",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "boss_wave_bomb",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/boss_wave_bomb_reference.png",
+        "still_path": "assets/hazard/boss_wave_bomb.png",
+        "spritesheet_path": "assets/hazard/boss_wave_bomb_warning_spritesheet.png",
+        "preview_gif_path": "assets/hazard/boss_wave_bomb_warning_preview.gif",
+        "intended_display": {
+          "width": 76,
+          "height": 76,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 64,
+            "height": 64,
+            "shape": "circle",
+            "radius": 32
+          },
+          "shockwave_radius": 116
+        },
+        "animation": {
+          "id": "warning",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "shockwave",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "warning": {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "shockwave": {
+            "id": "shockwave",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "boss_wave_bomb",
+        "role": "hazard",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/hazard/boss_wave_bomb_reference.png",
+        "still_path": "assets/hazard/boss_wave_bomb.png",
+        "spritesheet_path": "assets/hazard/boss_wave_bomb_shockwave_spritesheet.png",
+        "preview_gif_path": "assets/hazard/boss_wave_bomb_shockwave_preview.gif",
+        "intended_display": {
+          "width": 76,
+          "height": 76,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 6,
+            "y": 6,
+            "width": 64,
+            "height": 64,
+            "shape": "circle",
+            "radius": 32
+          },
+          "shockwave_radius": 116
+        },
+        "animation": {
+          "id": "shockwave",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          {
+            "id": "shockwave",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "warning": {
+            "id": "warning",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          },
+          "shockwave": {
+            "id": "shockwave",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      }
+    ],
+    "obstacle": [
+      {
+        "id": "asteroid_shard",
+        "role": "obstacle",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/obstacle/asteroid_shard_reference.png",
+        "still_path": "assets/obstacle/asteroid_shard.png",
+        "spritesheet_path": "assets/obstacle/asteroid_shard_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/obstacle/asteroid_shard_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 34,
+          "height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 26,
+            "height": 26,
+            "shape": "circle",
+            "radius": 13
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "impact": {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "asteroid_shard",
+        "role": "obstacle",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/obstacle/asteroid_shard_reference.png",
+        "still_path": "assets/obstacle/asteroid_shard.png",
+        "spritesheet_path": "assets/obstacle/asteroid_shard_impact_spritesheet.png",
+        "preview_gif_path": "assets/obstacle/asteroid_shard_impact_preview.gif",
+        "intended_display": {
+          "width": 34,
+          "height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 4,
+            "y": 4,
+            "width": 26,
+            "height": 26,
+            "shape": "circle",
+            "radius": 13
+          }
+        },
+        "animation": {
+          "id": "impact",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "impact": {
+            "id": "impact",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      }
+    ],
+    "collectable": [
+      {
+        "id": "star_food",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/star_food_reference.png",
+        "still_path": "assets/collectable/star_food.png",
+        "spritesheet_path": "assets/collectable/star_food_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/collectable/star_food_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 34,
+          "height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 2,
+            "y": 2,
+            "width": 30,
+            "height": 30,
+            "shape": "circle",
+            "radius": 15
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "star_food",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/star_food_reference.png",
+        "still_path": "assets/collectable/star_food.png",
+        "spritesheet_path": "assets/collectable/star_food_collect_spritesheet.png",
+        "preview_gif_path": "assets/collectable/star_food_collect_preview.gif",
+        "intended_display": {
+          "width": 34,
+          "height": 34,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 2,
+            "y": 2,
+            "width": 30,
+            "height": 30,
+            "shape": "circle",
+            "radius": 15
+          }
+        },
+        "animation": {
+          "id": "collect",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "heart_pickup",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/heart_pickup_reference.png",
+        "still_path": "assets/collectable/heart_pickup.png",
+        "spritesheet_path": "assets/collectable/heart_pickup_idle_pulse_spritesheet.png",
+        "preview_gif_path": "assets/collectable/heart_pickup_idle_pulse_preview.gif",
+        "intended_display": {
+          "width": 36,
+          "height": 36,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "animation": {
+          "id": "idle_pulse",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_pulse",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_pulse": {
+            "id": "idle_pulse",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "heart_pickup",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/heart_pickup_reference.png",
+        "still_path": "assets/collectable/heart_pickup.png",
+        "spritesheet_path": "assets/collectable/heart_pickup_collect_spritesheet.png",
+        "preview_gif_path": "assets/collectable/heart_pickup_collect_preview.gif",
+        "intended_display": {
+          "width": 36,
+          "height": 36,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 36,
+            "height": 36,
+            "shape": "circle",
+            "radius": 18
+          }
+        },
+        "animation": {
+          "id": "collect",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_pulse",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_pulse": {
+            "id": "idle_pulse",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "star_currency",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/star_currency_reference.png",
+        "still_path": "assets/collectable/star_currency.png",
+        "spritesheet_path": "assets/collectable/star_currency_idle_twinkle_spritesheet.png",
+        "preview_gif_path": "assets/collectable/star_currency_idle_twinkle_preview.gif",
+        "intended_display": {
+          "width": 28,
+          "height": 28,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 28,
+            "height": 28,
+            "shape": "circle",
+            "radius": 14
+          }
+        },
+        "animation": {
+          "id": "idle_twinkle",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_twinkle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_twinkle": {
+            "id": "idle_twinkle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "star_currency",
+        "role": "collectable",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/collectable/star_currency_reference.png",
+        "still_path": "assets/collectable/star_currency.png",
+        "spritesheet_path": "assets/collectable/star_currency_collect_spritesheet.png",
+        "preview_gif_path": "assets/collectable/star_currency_collect_preview.gif",
+        "intended_display": {
+          "width": 28,
+          "height": 28,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 28,
+            "height": 28,
+            "shape": "circle",
+            "radius": 14
+          }
+        },
+        "animation": {
+          "id": "collect",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_twinkle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_twinkle": {
+            "id": "idle_twinkle",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      }
+    ],
+    "powerup": [
+      {
+        "id": "shield_capsule",
+        "role": "powerup",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/powerup/shield_capsule_reference.png",
+        "still_path": "assets/powerup/shield_capsule.png",
+        "spritesheet_path": "assets/powerup/shield_capsule_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/powerup/shield_capsule_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 38,
+          "height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "shield_capsule",
+        "role": "powerup",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/powerup/shield_capsule_reference.png",
+        "still_path": "assets/powerup/shield_capsule.png",
+        "spritesheet_path": "assets/powerup/shield_capsule_collect_spritesheet.png",
+        "preview_gif_path": "assets/powerup/shield_capsule_collect_preview.gif",
+        "intended_display": {
+          "width": 38,
+          "height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "animation": {
+          "id": "collect",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "magnet_satellite",
+        "role": "powerup",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/powerup/magnet_satellite_reference.png",
+        "still_path": "assets/powerup/magnet_satellite.png",
+        "spritesheet_path": "assets/powerup/magnet_satellite_idle_spin_spritesheet.png",
+        "preview_gif_path": "assets/powerup/magnet_satellite_idle_spin_preview.gif",
+        "intended_display": {
+          "width": 38,
+          "height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "animation": {
+          "id": "idle_spin",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": true,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      },
+      {
+        "id": "magnet_satellite",
+        "role": "powerup",
+        "type": "animated_spritesheet",
+        "reference_path": "assets/powerup/magnet_satellite_reference.png",
+        "still_path": "assets/powerup/magnet_satellite.png",
+        "spritesheet_path": "assets/powerup/magnet_satellite_collect_spritesheet.png",
+        "preview_gif_path": "assets/powerup/magnet_satellite_collect_preview.gif",
+        "intended_display": {
+          "width": 38,
+          "height": 38,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "hitbox": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 38,
+            "shape": "circle",
+            "radius": 19
+          }
+        },
+        "animation": {
+          "id": "collect",
+          "fps": 20,
+          "frame_count": 20,
+          "same_canvas": true,
+          "loop": false,
+          "fallback_generated": true
+        },
+        "motions": [
+          {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        ],
+        "animations": {
+          "idle_spin": {
+            "id": "idle_spin",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": true
+          },
+          "collect": {
+            "id": "collect",
+            "fps": 20,
+            "frame_count": 20,
+            "same_canvas": true,
+            "loop": false
+          }
+        }
+      }
+    ],
+    "background": [
+      {
+        "id": "nebula_playfield",
+        "role": "background",
+        "type": "background_png",
+        "image_path": "assets/background/nebula_playfield.png",
+        "intended_display": {
+          "width": 1280,
+          "height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "safe_center": true
+        }
+      },
+      {
+        "id": "menu_planet_window",
+        "role": "background",
+        "type": "background_png",
+        "image_path": "assets/background/menu_planet_window.png",
+        "intended_display": {
+          "width": 1280,
+          "height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "safe_ui_zones": [
+            "center",
+            "lower_center"
+          ]
+        }
+      },
+      {
+        "id": "character_select_hangar",
+        "role": "background",
+        "type": "background_png",
+        "image_path": "assets/background/character_select_hangar.png",
+        "intended_display": {
+          "width": 1280,
+          "height": 720,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "safe_ui_zones": [
+            "full_grid"
+          ]
+        }
+      }
+    ]
+  }
+}

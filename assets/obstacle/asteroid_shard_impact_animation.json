@@ -1,0 +1,18 @@
+{
+  "name": "asteroid_shard_impact",
+  "type": "spritesheet-animation",
+  "same_canvas": true,
+  "loop": true,
+  "fps": 20,
+  "frame_count": 20,
+  "frame_width": 128,
+  "frame_height": 128,
+  "columns": 5,
+  "rows": 4,
+  "spritesheet": "asteroid_shard_impact_spritesheet.png",
+  "preview_gif": "asteroid_shard_impact_preview.gif",
+  "game_usage": {
+    "draw_source_rect": "sx = (frame % columns) * frame_width; sy = Math.floor(frame / columns) * frame_height",
+    "advance_frame": "frame = Math.floor(elapsedSeconds * fps) % frame_count"
+  }
+}
